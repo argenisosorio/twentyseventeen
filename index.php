@@ -284,7 +284,7 @@ get_header();
     <h1>Aquí va el carousel de los entes</h1>
   </div>
 
-
+  <br />
 
   <!-- Section Sidebar
   ================================================== -->

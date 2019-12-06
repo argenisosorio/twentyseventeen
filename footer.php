@@ -14,6 +14,17 @@
 ?>
 <footer class="bg-dark py-5">
   <div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3 class="footer-titles">Nosotros</h3>
+    </div>
+    <div class="col-sm-4">
+      <h3 class="footer-titles">Ubicanos</h3>
+    </div>
+    <div class="col-sm-4">
+      <h3 class="footer-titles">Redes sociales</h3>
+    </div>
+  </div>
     <div class="row">
       <div class="col-12">
         <?php
