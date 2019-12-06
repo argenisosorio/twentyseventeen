@@ -1,0 +1,59 @@
+/*--------------------------------------------------------------
+# Global styles
+--------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
+
+
+/*--------------------------------------------------------------
+# Helpers
+--------------------------------------------------------------*/
+.bg-primary { background-color: #26a9e0 !important; }
+
+.league-of-shadows:hover, .league-of-shadows:focus {
+  filter: brightness(0.8);
+}
+
+
+
+/*--------------------------------------------------------------
+# Landing
+--------------------------------------------------------------*/
+@media(min-width: 992px) {
+  #landing {
+    min-height: 63.5vh;
+  }
+}
+
+
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+.navbar {
+  background-color: #26a9e0;
+}
+.navbar .menu-item a {
+  color: #fff;
+  display: block;
+  padding: .5rem 1rem;
+  font-weight: 400;
+}
+
+.navbar .form-control {
+  border-color: #fff;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.navbar .form-control:focus {
+  border-color: #fff;
+}
+
+.navbar .btn-search {
+  background-color: #fff;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
