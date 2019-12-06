@@ -147,7 +147,7 @@ get_header();
   <!-- Section 2
   ================================================== -->
 
-
+  <br />
 
   <!-- Section Posts
   ================================================== -->
@@ -156,7 +156,8 @@ get_header();
     <?php if ( is_home() && ! is_front_page() ) : ?>
       <h2>Novedades</h2>
     <?php else : ?>
-      <h2><?php _e( 'Posts', 'twentyseventeen' ); ?></h2>
+      <!--h2><?php _e( 'Posts', 'twentyseventeen' ); ?></h2-->
+      <h2>Novedades</h2>
     <?php endif; ?>
 
     <?php
@@ -199,7 +200,89 @@ get_header();
   ================================================== -->
 
 
+  <!-- Section 3
+  ================================================== -->
+  <section id="profiles" class="container">
+    <h2 class="text-uppercase font-weight-bold text-dark">Nuestros programas</h2>
+    <div class="row">
+      <div class="col-sm-3 pb-3">
+        <div class="text-center">
+          <a class="league-of-shadows" href="#">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/prueba.png' );?>" class="w-100">
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-3 pb-3">
+        <div class="text-center">
+          <a class="league-of-shadows" href="#">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/prueba.png' );?>" class="w-100">
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-3 pb-3">
+        <div class="text-center">
+          <a class="league-of-shadows" href="#">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/prueba.png' );?>" class="w-100">
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-3 pb-3">
+        <div class="text-center">
+          <a class="league-of-shadows" href="#">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/prueba.png' );?>" class="w-100">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section 3
+  ================================================== -->
 
+  <br />
+
+  <!-- Section 4
+  ================================================== -->
+  <section id="profiles" class="container">
+    <h2 class="text-uppercase font-weight-bold text-dark">Galerías</h2>
+    <div class="row">
+      <div class="col-sm-3 pb-3">
+        <div class="text-center">
+          <a class="league-of-shadows" href="#">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/prueba.png' );?>" class="w-100">
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-3 pb-3">
+        <div class="text-center">
+          <a class="league-of-shadows" href="#">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/prueba.png' );?>" class="w-100">
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-3 pb-3">
+        <div class="text-center">
+          <a class="league-of-shadows" href="#">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/prueba.png' );?>" class="w-100">
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-3 pb-3">
+        <div class="text-center">
+          <a class="league-of-shadows" href="#">
+            <img src="<?php echo esc_url( get_template_directory_uri() . '/assets/images/prueba.png' );?>" class="w-100">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section 4
+  ================================================== -->
+
+  <br />
+
+  <div class="text-center">
+    <h1>Aquí va el carousel de los entes</h1>
+  </div>
 
 
 
@@ -211,11 +294,6 @@ get_header();
   <!-- Section Sidebar
   ================================================== -->
 
-
-
 </main>
-
-
-
 <?php
 get_footer();

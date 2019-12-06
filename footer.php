@@ -11,18 +11,13 @@
  * @since 1.0
  * @version 1.2
  */
-
 ?>
-
-
 <footer class="bg-dark py-5">
   <div class="container">
     <div class="row">
       <div class="col-12">
-
         <?php
         get_template_part( 'template-parts/footer/footer', 'widgets' );
-
         if ( has_nav_menu( 'social' ) ) :
           ?>
           <nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'twentyseventeen' ); ?>">
@@ -40,7 +35,6 @@
           </nav><!-- .social-navigation -->
           <?php
         endif;
-
         get_template_part( 'template-parts/footer/site', 'info' );
         ?>
       </div>
@@ -48,6 +42,5 @@
   </div><!-- .wrap -->
 </footer><!-- #colophon -->
 <?php wp_footer(); ?>
-
 </body>
 </html>
